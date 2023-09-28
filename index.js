@@ -1,3 +1,5 @@
+//--Enunciado--
+
 /*
 1) Lea el archivo package.json y declare un objeto con el siguiente formato y datos:
 let info = {
