@@ -8,6 +8,8 @@
     "ms": "node ms.js",
     "mac": "node mac.js",
     "maptc": "node maptc.js",
+    "mapaa": "node mapaa.js",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aldo Sebastián López",

@@ -7,7 +7,7 @@ contenidoObj: (contenido del archivo leído en formato objeto),
 size: (tamaño en bytes del archivo)
 }
 2) Muestre por consola el objeto info luego de leer el archivo.
-3) Guarde el objeto info en un archivo llamado infob.txt dentro de la misma carpeta de
+3) Guarde el objeto info en un archivo llamado info.txt dentro de la misma carpeta de
 package.json.
 4) Incluiya el manejo de errores.
 */
@@ -25,11 +25,11 @@ function readWriteASincronico(){
         let objectInfo = new Info(contentStr, contentObj, size)
         //2) Muestre por consola el objeto info luego de leer el archivo.
         console.log(objectInfo)
-        //3) Guarde el objeto info en un archivo llamado infob.txt dentro de la misma carpeta de package.json.
+        //3) Guarde el objeto info en un archivo llamado info.txt dentro de la misma carpeta de package.json.
         //Lo hago anidando otro callback
-        fs.writeFile('infob.txt', JSON.stringify(objectInfo), 'utf-8', err => {
+        fs.writeFile('info.txt', JSON.stringify(objectInfo), 'utf-8', err => {
             if (err) throw Error (`error en la operacion asincronica de escritura: ${err.message}`)
-            console.log('La informacion ha sido pasada al archivo infob.txt!!')
+            console.log('La informacion ha sido pasada al archivo info.txt!!')
          })  
     })    
 }
