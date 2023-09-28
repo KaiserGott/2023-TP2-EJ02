@@ -1,3 +1,6 @@
+//----- a) modo sincrónico.-----
+
+
 /*1) Lea el archivo package.json y declare un objeto con el siguiente formato y datos:
 let info = {
 contenidoStr: (contenido del archivo leído en formato string),
@@ -38,3 +41,4 @@ function readWriteSincronico(){
 
 console.log("comienzo la prueba")
 readWriteSincronico()
+console.log("fin")

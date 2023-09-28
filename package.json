@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "ms": "node ms.js",
+    "mac.js": "node mac.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aldo Sebastián López",
